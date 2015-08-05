@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-981c1777d6fc6036f838c554037ab91b8b89619c.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="668c66ef994fec47f1861ea185fe6aa205205f72">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-b46b8cac7908214c7d909eace21478213873db69.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-180e615427d4d8e31c199076239a57b508978629.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2131121d57bed01853f3fd7e3067917249a2db99.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="cd611c5cbb4dec30ebd4ebea227eacbc7c3379c2">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-e25246bd70f84f01fc3a6dccf5c1b07cd53b17f5.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/libs/Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/Parse-1.9.3-5d818625b2bb2cc3e26d330ac1acca26eeec41e1.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="7ec8bddbe9ea6919c141bbca6986c5499e049461">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-6cc8e4c6d038225e2af8e72816765882d7f5e629.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-2131121d57bed01853f3fd7e3067917249a2db99.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-fdd2e569be923e4843541f95783462b2050cb710.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-981c1777d6fc6036f838c554037ab91b8b89619c.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-180e615427d4d8e31c199076239a57b508978629.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/library-2.4.0-f8063f18171811ba6ec7b9996f387ab554b708f4.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-d3804d7a78011e2e00f84315df510af18e2c79e1.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-238ab59961fdb27a015a247b2bb4912fd8fb1e96.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/libs/Parse-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="35921ead63f6cafd9f84ff178c60fe474c4b17a6">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/Parse-1.9.3-5d818625b2bb2cc3e26d330ac1acca26eeec41e1.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.2.0/6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-d3804d7a78011e2e00f84315df510af18e2c79e1.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="309967f02af11bd65974c8bf6a783994d04c25c9">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/classes-cc68773f95d651108bee1d3093f91679ddcd875a.jar" />
+    </item>
+    <item
+        jar="/Users/AdrianHsu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/AdrianHsu/Google_Drive/Summer_2015/SimpleChat/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-fdd2e569be923e4843541f95783462b2050cb710.jar" />
+    </item>
+
+</items>
