@@ -1,6 +1,8 @@
 package com.example.adrianhsu.simplechat.activities;
 
 import android.app.Activity;
+import android.app.Notification;
+import android.app.NotificationManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -26,7 +28,8 @@ import com.parse.*;
 
 import java.util.ArrayList;
 import java.util.List;
-
+import android.app.PendingIntent;
+import android.support.v4.app.NotificationCompat;
 
 public class ChatActivity extends Activity {
     private static final String TAG = ChatActivity.class.getName();
@@ -40,6 +43,7 @@ public class ChatActivity extends Activity {
     private ChatRecyclerAdapter chatRecyclerAdapter;
     private ArrayList<MessageParcelable> mMessages;
     private static final int MAX_CHAT_MESSAGES_TO_SHOW = 50;
+    private int FM_NOTIFICATION_ID = 0;
 
     // Create a handler which can run code periodically
     private Handler handler = new Handler();
@@ -158,6 +162,31 @@ public class ChatActivity extends Activity {
         msgIntent.putExtra(Constants.MAX_MSGS, MAX_CHAT_MESSAGES_TO_SHOW);
         startService(msgIntent);
     }
+    private void addNotification() {
+
+        NotificationCompat.Builder builder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.mipmap.ic_launcher)
+                        .setContentTitle("Notifications Example")
+                        .setContentText("You receive new Messages :-)");
+
+        Intent notificationIntent = new Intent(this, ChatActivity.class);
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT);
+        builder.setContentIntent(contentIntent);
+
+        // Add as notification
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.notify(FM_NOTIFICATION_ID, builder.build());
+        FM_NOTIFICATION_ID++;
+    }
+    // Remove notification
+    private void removeNotification() {
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.cancel(FM_NOTIFICATION_ID);
+        FM_NOTIFICATION_ID = 0;
+    }
+
 
     // Broadcast receiver that will receive data from service
     public class ResponseReceiver extends BroadcastReceiver {
@@ -166,6 +195,8 @@ public class ChatActivity extends Activity {
 
         @Override
         public void onReceive(Context context, Intent intent) {
+
+            addNotification();
             List<MessageParcelable> messages = intent.getParcelableArrayListExtra(Constants.INTENT_MSGS_EXTRA);
             chatRecyclerAdapter.updateList(messages);
         }
