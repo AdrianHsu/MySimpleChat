@@ -196,7 +196,6 @@ public class ChatActivity extends Activity {
         @Override
         public void onReceive(Context context, Intent intent) {
 
-            addNotification();
             List<MessageParcelable> messages = intent.getParcelableArrayListExtra(Constants.INTENT_MSGS_EXTRA);
             chatRecyclerAdapter.updateList(messages);
         }
